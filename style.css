@@ -9,6 +9,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: white;
+    padding-top: 0px;
 }
 
 a {
@@ -20,31 +21,75 @@ ul {
     display: flex;
     margin-left: auto;
     padding-right: 0;
+    margin-top: 20px;
 }
 
 li {
     margin-right: 15px;
 }
 
-.spacer {
-    width: 350px;
+.spacer-left {
+    padding-right: 150px;
+}
+
+.spacer-right {
+    padding-left: 150px;
 }
 
 .intro {
     display: flex;
-
     background-color: #1F2937;
     color: white;
     flex: 1 1 1;
     padding: 80px 1px;
-    align-items: center;
+    /* align-items: center; */
 } 
 
-img {
+.right img {
+    /* display: flex; */
     width: 500px;
     height: auto;
+    /* justify-content: end; */
+    /* display: block;
+    margin-left: auto; */
+}
+
+.right {
+    margin-left: auto;
 }
 
 .left .sign-butt {
-    padding: 1px 20px;
+    padding: 8px 25px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+
+li {
+    flex: 1 0 auto;
+}
+
+h2 {
+    flex: 1 0 auto;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.left p {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+.left h1 {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header h2 {
+    margin-top: 20px;
 }
