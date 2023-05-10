@@ -53,12 +53,13 @@ li {
     margin-left: auto;
 }
 
-.left .sign-butt {
+.sign-butt {
     padding: 8px 25px;
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
     border: 0;
+    font-weight: bold;
 }
 
 li {
@@ -158,4 +159,98 @@ li {
     margin-top: 0;
     font-style: italic;
     font-weight: 500;
+}
+
+/* .sign-up {
+    display: flex;
+    background-color: #f9faf8;
+    padding: 50px;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    width: 1100px;
+    
+}
+
+.sign-up .action .sign-button {
+    border: 1;
+    border-color: #f9faf8;
+    padding: 8px 25px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100px; 
+    display: flex;
+}
+
+.action h2 {
+    flex: 1 0 auto;
+    margin-left: 0px;
+    margin-right: auto;
+    color: #f9faf8;
+}
+
+.one {
+    margin-right: auto;
+}
+
+.two {
+    display: flex;
+    margin-left: auto;
+    height: 40px;
+} */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 100px 0px;
+    border-radius: 8px;
+    flex: 1;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.left-spacer {
+    padding-right: 100px;
+}
+
+.right-spacer {
+    padding-left: 100px;
+}
+
+.sign-up-button {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sign-button {
+    padding: 5px 30px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+
+.text p,
+.text h2 {
+    margin: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: bold;
 }
